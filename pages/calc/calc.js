@@ -4,6 +4,7 @@ Page({
     idc:"clear",
     idt:"toggle",
     idadd:"＋",
+    idcomple:"%",
     id9:"9",
     id8:"8",
     id7:"7",
@@ -20,7 +21,7 @@ Page({
     idd:".",
     ide:"＝",
     screenData:"0",
-    operaSymbo:{"＋":"+","－":"-","×":"*","÷":"/",".":"."},
+    operaSymbo:{"＋":"+","－":"-","×":"*","÷":"/",".":".","%":"%"},
     lastIsOperaSymbo:false,
     iconType:'waiting_circle',
     iconColor:'white',
@@ -111,6 +112,8 @@ Page({
                 result *= Number(optarr[i + 1]);
             }else if(optarr[1] == this.data.iddiv){
                 result /= Number(optarr[i + 1]);
+            }else if (optarr[1] == this.data.idcomple) {
+                result %= Number(optarr[i + 1]);
             }
         }
       }
