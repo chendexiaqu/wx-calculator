@@ -148,10 +148,5 @@ Page({
         this.setData({"lastIsOperaSymbo":false});
       }
     }
-  },
-  history:function(){
-    wx.navigateTo({
-      url:'../history/history'
-    })
   }
 })

@@ -9,7 +9,7 @@
 	"compileType": "weapp",
 	"libVersion": "1.6.0",
 	"appid": "touristappid",
-	"projectname": "wxapp-sCalc",
+	"projectname": "wx-calculator",
 	"condition": {
 		"weapp": {
 			"current": -1,

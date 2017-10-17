@@ -7,12 +7,6 @@ Page({
     disabled: false,
     iconType:'info_circle'
   },
-  
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
   toCalc:function(){
     wx.navigateTo({
       url:'../calc/calc'
