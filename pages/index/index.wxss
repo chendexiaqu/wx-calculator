@@ -1,12 +1,4 @@
 /**index.wxss**/
-.userinfo {
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*align-items: center;*/
-  /*width:256rpx;*/
-  /*height: 512rpx;*/
-}
-
 .userinfo-avatar {
   width: 128px;
   height: 128px;
@@ -23,12 +15,10 @@
   margin-top: 35%;
 }
 
-/** 修改button默认的点击态样式类**/
 .button-hover {
   background-color: red;
 }
 
-/** 修改默认的navigator点击态 **/
 .navigator-hover {
     color:blue;
 }

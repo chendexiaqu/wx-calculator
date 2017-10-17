@@ -2,13 +2,12 @@
   "pages":[
     "pages/index/index",
     "pages/calc/calc",
-    "pages/history/history",
-    "pages/logs/logs"
+    "pages/history/history"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#da7c0c",
-    "navigationBarTitleText": "计算器",
+    "navigationBarBackgroundColor": "#5f9ea0",
+    "navigationBarTitleText": "Calculator",
     "navigationBarTextStyle":"white"
   }
 }
