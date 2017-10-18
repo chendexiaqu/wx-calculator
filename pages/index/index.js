@@ -5,21 +5,19 @@ Page({
     userInfo: {},
     defaultSize: 'default',
     disabled: false,
-    iconType:'info_circle'
+    iconType: 'info_circle'
   },
-  toCalc:function(){
+  toCalc: function () {
     wx.navigateTo({
-      url:'../calc/calc'
+      url: '../calc/calc'
     })
   },
   onLoad: function () {
-    console.log('onLoad');
     var that = this
-  
-    app.getUserInfo(function(userInfo){
-      
+
+    app.getUserInfo(function (userInfo) {
       that.setData({
-        userInfo:userInfo
+        userInfo: userInfo
       })
     })
   }

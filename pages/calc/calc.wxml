@@ -1,10 +1,10 @@
 <view class="content">
   <view class="layout-top">
     <view class="screen">
-     {{screenData}}
+      {{screenData}}
     </view>
   </view>
-    
+
   <view class="layout-bottom">
     <view class="btnGroup">
       <view class="item orange" bindtap="clickBtn" id="{{idc}}">С</view>

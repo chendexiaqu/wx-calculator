@@ -1,12 +1,12 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/calc/calc"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#5f9ea0",
     "navigationBarTitleText": "Calculator",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle": "white"
   }
 }
